@@ -62,12 +62,10 @@ pipeline {
         }
 
         stage('Build package') {
-            when {
-                expression {
-                    currentBuild.result == null || currentBuild.result == 'SUCCESS'
-                }
+            steps {
+                echo  'Build..ok'
             }
         }
 
-
+	}
 }
