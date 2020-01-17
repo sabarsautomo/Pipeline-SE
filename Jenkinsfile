@@ -58,6 +58,12 @@ pipeline {
                 echo  'Build..ok'
             }
         }
+        stage("Deploy...") {
+            }
+            steps {
+                echo "proses deploy"
+            }
+        }	    
 
 	}
 }
