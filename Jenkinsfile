@@ -69,12 +69,5 @@ pipeline {
             }
         }
 
-        // stage("Deploy to PyPI") {
-        //     steps {
-        //         sh """twine upload dist/*
-        //         """
-        //     }
-        // }
-    }
 
 }
