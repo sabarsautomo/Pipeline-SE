@@ -13,7 +13,7 @@ pipeline {
     }
 
     environment {
-      PATH="C:/python37/:$PATH"
+      PATH="C:\Program Files (x86)\Jenkins\miniconda3\Lib\site-packages:$PATH"
     }
 
     stages {
