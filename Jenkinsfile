@@ -13,7 +13,7 @@ pipeline {
     }
 
     environment {
-      PATH="C:/python37/scripts/jenkins-python-test:$PATH"
+      PATH="C:/Program Files (x86)/Jenkins/miniconda3/bin:$PATH"
     }
 
     stages {
